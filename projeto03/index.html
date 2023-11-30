@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Básico Usando Bootstrap</title>
+</head>
+<body>
+    <div class="container login-form">
+        <h2 class="login-title">- Please Login -</h2>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form>
+                    <div class="input-group login-userinput">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                        <input id="txtUser" type="text" class="form-control" name="username" placeholder="Usuário" />
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                        <input id="txtPassword" type="password" class="form-control" name="password"
+                            placeholder="Senha" />
+                        <span id="showPassword" class="input-group-btn">
+                            <button class="btn btn-default reveal" type="button">
+                                <i class="glyphicon glyphicon-eye-open"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <button class="btn btn-primary btn-block login-button" type="submit">
+                        <i class="fa fa-sign-in"></i> Login
+                    </button>
+                    <div class="checkbox login-options">
+                        <label><input type="checkbox" /> Lembre de Mim</label>
+                        <a href="#" class="login-forgot">Esqueceu usuário/senha?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One'">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
